@@ -4,16 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scripts": "node index.js",
+    "start":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programming-hero-web-course-4/b612-used-products-resale-server-side-Taher027.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programming-hero-web-course-4/b612-used-products-resale-server-side-Taher027/issues"
+  },
+  "homepage": "https://github.com/programming-hero-web-course-4/b612-used-products-resale-server-side-Taher027#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongodb": "^4.12.1"
+    "mongodb": "^4.12.1",
+    "nodemon": "^2.0.20"
   }
 }
