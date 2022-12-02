@@ -65,10 +65,10 @@ async function run() {
         });
 
         // find all advertisement product 
-        app.get('advertiseItems', async (req, res) => {
-            const query = {}
+        app.get("/advertiseItems", async (req, res) => {
+            const query = {};
             const cursor = advertiseCollection.find(query);
-            const result = await cursor.toArray;
+            const result = await cursor.toArray();
             res.send(result);
         })
 
